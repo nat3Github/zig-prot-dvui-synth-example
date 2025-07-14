@@ -1,0 +1,37 @@
+.{
+    .fingerprint = 0x9675c17cb9db7eba,
+    .name = .sampl3n,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.14.1",
+
+    .dependencies = .{
+        .tailwind = .{
+            .url = "git+https://github.com/nat3Github/zig-lib-tailwind-colors#d537cda9f7f8053597f4423fcaa8babe8deb7d09",
+            .hash = "tailwind-0.0.0-j7vJMd0vAAD73YpI5PS1FuPJlYrlGCwGvM5E-xYtWWgl",
+        },
+        .icons = .{
+            .url = "git+https://github.com/nat3Github/zig-lib-icons#8e34a0324d46d73a5a59bda09892ac5140b54c0f",
+            .hash = "icons-0.0.0-iJxA-c33MwAwe2T9SnPQlmpIkKfdNt9jQ5buN-CLufTe",
+        },
+        // .path = "../../lib/dvui",
+        .dvui = .{
+            .url = "git+https://github.com/nat3Github/zig-lib-dvui-dev-fork#80af34032812c841bea6e14fe4c4b3b145718a53",
+            .hash = "dvui-0.2.0-AQFJmcSP0QD5-en8A-hFg-WkyhJJU9oc8dRnuK7Clktb",
+        },
+        // .path = "../../lib/portaudio",
+        .portaudio = .{
+            .url = "git+https://github.com/nat3Github/zig-lib-portaudio-dev-fork#630d976029f3860f6f3fdf8fbf54230eac71f448",
+            .hash = "portaudio-19.7.0-2-Wv4wb0NiAAD37dWgPML5EUW1gW6HTH9ON_Sh-k2N_eU5",
+        },
+        .fifoasync = .{
+            .url = "git+https://github.com/nat3Github/zig-lib-fifoasync#79c21c032793a14ad30dc6de0cd02dbac6c3dfab",
+            .hash = "fifoasync-0.0.0-XvoAAKexAQDRqaudb0ovWmPxQtMTeDRqI0c75pv5rjiH",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "update.zig",
+    },
+}
